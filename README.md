@@ -20,7 +20,7 @@ lessc file.less --inline-urls
 ## Programmatic usage
 
 ```
-var inline-urls-plugin = require('less-plugin-inline-urls');
+const inline-urls-plugin = require('less-plugin-inline-urls');
 less.render(lessString, { plugins: [inline-urls-plugin] })
   .then(
 ```
